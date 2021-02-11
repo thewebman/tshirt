@@ -1,0 +1,175 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 605232,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 103023,
+      "max": [
+        35.2753791809082,
+        161.857345581055,
+        14.0940389633179
+      ],
+      "min": [
+        -35.2753715515137,
+        102.83797454834,
+        -19.7621574401855
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 103023,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 103023,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 6.2.2",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2420928,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1236276,
+      "byteOffset": 2420928,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1236276,
+      "byteOffset": 3657204,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 824184,
+      "byteOffset": 4893480,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 5717664,
+      "uri": "Tshirt.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Extract0_baseColor.png"
+    },
+    {
+      "uri": "Extract0_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "Extract0_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "Extract0",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Extract0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Extract0",
+      "translation": [
+        0.0,
+        -131.193176269531,
+        2.50921201705933
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "Extract0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
